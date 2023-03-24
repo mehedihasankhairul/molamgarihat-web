@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ignore sw.js and workbox-*.js files in public folder
+public/sw.js
+public/workbox-*.js

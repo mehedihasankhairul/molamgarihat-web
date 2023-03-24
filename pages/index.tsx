@@ -33,7 +33,7 @@ export default function Home(props: Props) {
         <title>Home | Molamgarihat</title>
       </Head>
       <div className={styles.App}>
-        <h1 className={styles.comingSoon}>We are coming soon ... </h1>
+        <h1 className={styles.comingSoon}>Molamgarihat.com We are coming soon ... </h1>
         <h2 className={styles.headerText}> Advice </h2>
         <p className={styles.paragraph}>{data.slip.advice}</p>
         <button className={styles.button} onClick={refresh}>
